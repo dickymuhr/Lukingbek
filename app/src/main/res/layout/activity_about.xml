@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/about_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about"
+    tools:context=".AboutActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/about"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dicky M Rizal"
+        android:textSize="20sp"
+        android:fontFamily="@font/leoround_bold"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/imageView"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dickymuhrizal09@gmail.com"
+        android:textSize="15sp"
+        android:fontFamily="@font/galyon_regular"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView"/>
+</LinearLayout>
